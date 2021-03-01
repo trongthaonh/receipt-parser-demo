@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  purchase_date: MyString
+  phone_number: MyString
+  purchase_date_is_correct: false
+  phone_number_is_correct: false
+  raw_content: MyText
+
+two:
+  image: MyString
+  purchase_date: MyString
+  phone_number: MyString
+  purchase_date_is_correct: false
+  phone_number_is_correct: false
+  raw_content: MyText

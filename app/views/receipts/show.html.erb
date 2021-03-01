@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag(@receipt.image) %>
+</p>
+
+<p>
+  <strong>Purchase date:</strong>
+  <%= @receipt.purchase_date %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @receipt.phone_number %>
+</p>
+
+<p>
+  <strong>Purchase date is correct:</strong>
+  <%= @receipt.purchase_date_is_correct %>
+</p>
+
+<p>
+  <strong>Phone number is correct:</strong>
+  <%= @receipt.phone_number_is_correct %>
+</p>
+
+<p>
+  <strong>Raw content:</strong>
+  <%= @receipt.raw_content %>
+</p>
+
+<%= link_to 'Edit', edit_receipt_path(@receipt) %> |
+<%= link_to 'Back', receipts_path %>
