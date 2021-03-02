@@ -9,8 +9,8 @@ class GoogleVisionService
 	def call(receipt)
 		image_path = ActiveStorage::Blob.service.path_for(receipt.image.key)
 		response = @image_annotator.text_detection(
-				image: image_path,
-				max_results: 1
+			image: image_path,
+			max_results: 1
 		)
 
 		raw_content = response&.responses&.try(:[], 0)&.text_annotations&.try(:[], 0)&.description
