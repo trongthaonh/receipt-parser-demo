@@ -62,7 +62,9 @@ Go to http://localhost:3000/receipts
 - Online regular expression tester: https://regex101.com/
 
 ## REFERENCE SOURCE CODE
-Our main service class is located at app/services/google_vision_service.rb
+- Our main service class is located at  [app/services/google_vision_service.rb](https://github.com/trongthaonh/receipt-parser-demo/blob/master/app/services/google_vision_service.rb)
+- Import Receipt task: [lib/tasks/import_receipt.rake](https://github.com/trongthaonh/receipt-parser-demo/blob/master/lib/tasks/import_receipt.rake)
+- Detect Receipt task: [lib/tasks/detect_receipt.rake](https://github.com/trongthaonh/receipt-parser-demo/blob/master/lib/tasks/detect_receipt.rake)
 
 ## CONTACT
 If you have any questions about setting up rails application / google vision or regular expression, don't hesitate to contact us via Slack
