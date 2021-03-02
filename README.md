@@ -7,7 +7,7 @@ application up and running.
 * References: https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails (3.1 Installing Rails)
 
 ## 2. Running the demo
-### Step 1: Get the gmv_cico source from Github repo 
+### Step 1: Get the receiper-parser-demo source from Github repo 
 ```
 git clone https://github.com/trongthaonh/receiper-parser-demo.git
 cd receiper-parser-demo
